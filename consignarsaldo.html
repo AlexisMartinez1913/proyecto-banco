@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Consignar Saldo</title>
+</head>
+<body>
+    <header class="title">
+        <h4>Consignar Dinero</h4>
+    </header>
+
+    <main>
+        <section class="contenedor-cs">
+            <section class="contformcs">
+                <form action="" class="formcs">
+                    <img class="logo-cs" src="./img/consignar-dinero.png" alt="">
+                    <label for="numerocuenta">Numero De Cuenta</label>
+                    <input type="text"  id="numero-de-cuenta">
+                    <label for="tipodecuenta">Seleccione Tipo De Cuenta</label>
+                    <select name="tipocuenta" id="tipocuenta" onchange="">
+                        
+                        <option value="ahorros">Ahorros</option>
+                        <option value="corriente">Corriente</option>
+                    </select>
+                    <label for="formadepago">Seleccione Forma De Pago</label>
+                    <select name="formapago" id="formapago">
+                        <option value="efectivo">Efectivo</option>
+                        <option value="pse">PSE</option>
+                    </select>
+                    <label for="valor">Valor A Consignar</label>
+                    <input type="number"  id="valor">
+                    <input type="submit" value="Realizar Consignación" >
+                    
+
+
+                </form>
+
+            </section>
+
+        </section>
+
+        <footer>
+            <p>Desarrollador: Jhony Alexis Martinez</p>
+            <p>Introducción a la programación</p>
+            <p>CESDE</p>
+            <p>2023</p>
+    
+        </footer>
+    </main>
+    
+</body>
+</html>
